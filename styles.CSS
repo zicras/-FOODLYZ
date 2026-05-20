@@ -1,0 +1,65 @@
+*{
+font-size:24px;
+margin-bottom:10px;
+}
+
+.food-card p{
+font-size:20px;
+color:#ff9100;
+margin-bottom:15px;
+}
+
+.contacto{
+padding:50px;
+text-align:center;
+}
+
+.formulario-web{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.formulario-web input,
+.formulario-web textarea,
+.formulario-web select{
+padding:15px;
+border:none;
+border-radius:10px;
+font-size:16px;
+}
+
+.formulario-web input[type="submit"]{
+background:#ff3c00;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.formulario-web input[type="submit"]:hover{
+background:#ff9100;
+}
+
+footer{
+background:#000;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+@media(max-width:768px){
+.hero h2{
+font-size:40px;
+}
+
+header h1{
+font-size:35px;
+}
+
+nav ul{
+flex-direction:column;
+align-items:center;
+}
+}
